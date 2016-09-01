@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundroundedborder"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="150px"
+            android:background="@color/colorLightBackground"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/feedpostimage"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDefaultText"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_gravity="right"
+            android:id="@+id/feedpostuser"/>
+    </LinearLayout>
+</FrameLayout>
